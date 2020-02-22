@@ -1,0 +1,27 @@
+Passos para usar o arquivo em seu proprio computador
+0 - instale a biblioteca virtualvenv
+
+1- crie um ambiente virtual com o comando mkvenv com nome venv
+
+2 - instale respectivamente pip, flask, jinja, flask_boostrap. 
+
+3 - Use essas versoes de bibliotecas
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+Werkzeug==0.16.0
+
+4- crie um ambiente virtual com o comando mkvenv com nome venv
+
+5- caso esteja em ambiente windowns set as variaveis locais para uso na linha comando
+   caso nao seja possivel setar as variaveis de ambiente , bote a pasta do projeto na pasta Scripts e faça o caminho no cmd para a pasta 
+   ex: C:\Users\User\AppData\Local\Programs\Python\Python37\Scripts\Projeto\venv\Scripts
+   caso esteja em ambiente linux nao e necessario 
+
+6- com o comando activate ative o ambiente virutal e com o comando/ run.py runserver /ative o site
+
+7 - copie o link  http://127.0.0.1:5000/ para o navegador.
+
+8 - use o programa  
